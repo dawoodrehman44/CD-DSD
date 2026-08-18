@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model checkpoints (too large — download via link in README)
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Data
+data/
+datasets/
+*.csv
+*.json
+!examples/*.json
+
+# Results and logs
+results/
+logs/
+plots/
+runs/
+wandb/
+
+# Environment
+.env
+.venv
+env/
+venv/
+*.conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Misc
+*.bak
+*.tmp
+.lock
