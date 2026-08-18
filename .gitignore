@@ -53,3 +53,7 @@ Thumbs.db
 *.bak
 *.tmp
 .lock
+
+# Notebooks (not public)
+notebooks/
+*.ipynb
